@@ -10,7 +10,7 @@ alignment_modes = {
 	"bottom": 1 << 3
 }
 
-class Example:
+class RotateAround:
 	def __init__(self, source_name=None):
 		self.source_name = source_name
 		self.rotation = 0
@@ -42,7 +42,7 @@ class Example:
 		S.obs_source_release(source)
 
 
-eg = Example()  # class created ,obs part starts
+eg = RotateAround()  # class created ,obs part starts
 
 def move_pressed(props, prop):
     
